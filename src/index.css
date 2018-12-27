@@ -1,0 +1,82 @@
+body{
+    background: url("images/background-image2.jpg");
+
+}
+
+*{
+    font-family: Verdana, Geneva, sans-serif;
+
+}
+
+div.container{
+    height: 4em;
+    padding-top: 1em;
+    background: rgb(0,0,0); /* Fallback for older browsers without RGBA-support */
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: 5.0em;
+    padding-left: 2em;
+    color: #f2f2f2;
+    padding-bottom: 13%;
+}
+
+div.containerTwo{
+
+    height: 4em;
+    padding-top: 1em;
+    background: rgb(0,0,0);
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: 5.0em;
+    padding-left: 2em;
+    color: #f2f2f2;
+    padding-bottom: 18%;
+    margin-right: 50%;
+    padding-right: 3%;
+
+}
+
+div.nav{
+    overflow: hidden;
+    background: rgb(0,0,0); /* Fallback for older browsers without RGBA-support */
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding: 1em;
+    max-width: 100%;
+}
+
+.nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+/* Change the color of links on hover */
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+
+}
+
+p.onTop{
+    position: relative;
+    color: #f2f2f2;
+    top: 4.7em;
+    z-index: 2;
+}
+
+div.center {
+    margin: auto;
+    width: 50%;
+}
+
+img {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
